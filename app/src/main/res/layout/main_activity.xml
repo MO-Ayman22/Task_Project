@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        style="@style/Page_title"
+        android:text="@string/welcome"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Slash Flutter provides extraordinary flutter"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="tutorials. Do subscribe!"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:fontFamily=""
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/welcome_"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/large_margin"/>
+    <Button
+        android:id="@+id/Go_login"
+       style="@style/Button"
+        android:background="@drawable/rounded_button_white"
+        android:text="@string/login"
+        android:textSize="16sp"
+        android:layout_margin="@dimen/normal_margin"
+        android:onClick="onclick"/>
+    <Button android:id="@+id/Go_signup"
+       style="@style/Button"
+        android:background="@drawable/rounded_button"
+        android:text="@string/sign_up"
+        android:textSize="16sp"
+        android:textColor="@color/white"/>
+</LinearLayout>
